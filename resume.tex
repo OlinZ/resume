@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Olin Zhou} % Your name
+% \address{156 Kasturi, Balajinagar, Sangli 416416} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{469-258-4537 \\ olin.zhou.0@gmail.com \\ github.com/olinz} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+    {\bf Texas A\&M University} \hfill {\em August 2017 - May 2021}
+    \\ Bachelor of Science in Computer Science \hfill { GPA: 3.866}
+    % \\ Department of Structural Engineering\\
+    % \\{\bf Maharashtra Institute of Techology, Pune} \hfill {\em July 2013 - June 2017}
+    % \\ Bachelor of Engineering, Civil
+    %Minor in Linguistics \smallskip \\
+    %Member of Eta Kappa Nu \\
+    %Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+% \begin{rSection}{Carrier Objective}
+%     To work for an organization which provides me the opportunity to improve my skills and knowledge to grow along with the organization objective.
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+        Languages       & Java, JavaScript, C++, Python, MATLAB, SQL, Bash Script \\
+        Web Development & React, Node.js, Express.js, Bootstrap, HTML, CSS        \\
+        Tools           & MySQL, AWS Lambda/API Gateway, Unix, OpenStack          \\
+    \end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+
+    \begin{rSubsection}{MathWorks}{Summer 2020}{EDG Intern}{}
+        \item Automated MathWorks' platform testing process by writing bash scripts that create OpenStack instances to host MATLAB containers
+        \item Created a web UI and Java API to display and filter testing jobs in MathWorks' internal database based on operating systems, clusters, and MATLAB release versions
+        \item Bash Script, OpenStack, Java, GlassFish, SQL, React
+    \end{rSubsection}
+
+    \begin{rSubsection}{Tyson Foods}{Summer 2019}{Full Stack Intern}{}
+        \item Created a responsive and cloud based web intake form to store Tyson Foods’ truck incidents for the transportation department and saved Tyson Foods \$40,000
+        \item React, NodeJS, AWS Aurora, AWS Lambda, Docker, Kubernetes
+    \end{rSubsection}
+
+    \begin{rSubsection}{Texas A\&M University}{Spring 2019}{Undergraduate Teaching Fellow (Newtonian Mechanics)}{}
+        \item Led weekly classes that helped underclassmen understand physic concepts related to mechanics by diving deep into physics problems and holding review sessions
+    \end{rSubsection}
+\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+    % {\bf Discord Voice and Image Bot}
+    % \begin{itemize}[label=$\cdot$]
+
+    \begin{rSubsection}{Stock Alert}{}{}{}
+        \item A web application that alerts users by either text or phone call based on the current and desired stock price of their choosing
+        \item React, NodeJS, ExpressJS, AWS Lambda, Twilio API
+    \end{rSubsection}
+
+    % \end{itemize}
+
+    \begin{rSubsection}{Road Conditions}{}{}{}
+
+        \item A web application that maps weather details on a static map image based on the user starting and ending location
+        \item Calculates the weather condition every 30 minutes on the route
+        \item React, NodeJS, Google Maps API, Open Weather API
+    \end{rSubsection}
+
+
+    \begin{rSubsection}{Discord Voice and Image Bot}{}{}{}
+
+        \item A bot that searches through Reddit for images and sends relavent content to users with chat commands
+        \item Can also play voice files/reactions based on user input
+        \item Python, Discord.py, PRAW API
+    \end{rSubsection}
+
+\end{rSection}
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Academic Achievements}
+%     Runners up in B.G.Shirke Vidyarthi Competition for Innovative Project organized by Pune Construction Engineering Research Foundation in January 2018
+%     \item Won First Prize in Model Making Competition Organized by Symbiosis Institute of Technology, Pune.
+% \end{rSection}
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+% Extra Curricular
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Cirrucular} \itemsep -3pt
+    \item TAMU Hackathon 2019
+    \item TAMU SASE (The Society of Asian Scientists and Engineers)
+    \item TAMU VSA
+
+
+\end{rSection}
+
+% \begin{rSection}{Personal Traits}
+%     \item Highly motivated and eager to learn new things.
+%     \item Strong motivational and leadership skills.
+%     \item Ability to work as an individual as well as in group.
+% \end{rSection}
+\end{document}
