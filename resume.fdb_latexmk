@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1599106703 "o:/Olin/CompSci Projects/resume/resume.tex" "o:/Olin/CompSci Projects/resume/resume.pdf" "resume" 1599106705
+["pdflatex"] 1599585762 "o:/Olin/CompSci Projects/resume/resume.tex" "o:/Olin/CompSci Projects/resume/resume.pdf" "resume" 1599585763
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1589227021 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1589228021 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1589227599 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -54,16 +54,16 @@
   "c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1589231788 4852750 baa43c5f143702324570c88e39a48ce2 ""
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1589231932 2420200 804a9a4eb0a37b499c54ff579ad6dc3f ""
   "c:/texlive/2020/texmf.cnf" 1589231756 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "o:/Olin/CompSci Projects/resume/resume.aux" 1599106705 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "o:/Olin/CompSci Projects/resume/resume.tex" 1599106702 6844 997adfec56adf1417f8e59663c5416ef ""
-  "resume.aux" 1599106705 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "o:/Olin/CompSci Projects/resume/resume.aux" 1599585763 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "o:/Olin/CompSci Projects/resume/resume.tex" 1599585761 6844 997adfec56adf1417f8e59663c5416ef ""
+  "resume.aux" 1599585763 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
   "resume.cls" 1594603370 4927 76f77bc31a7ef82a7e8fc2bdaf08b47c ""
-  "resume.out" 1599106704 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1599106702 6844 997adfec56adf1417f8e59663c5416ef ""
+  "resume.out" 1599585763 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1599585761 6844 997adfec56adf1417f8e59663c5416ef ""
   (generated)
-  "resume.out"
-  "o:/Olin/CompSci Projects/resume/resume.log"
-  "resume.aux"
-  "resume.log"
-  "resume.pdf"
   "o:/Olin/CompSci Projects/resume/resume.pdf"
+  "resume.pdf"
+  "resume.out"
+  "resume.log"
+  "resume.aux"
+  "o:/Olin/CompSci Projects/resume/resume.log"
